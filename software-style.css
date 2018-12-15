@@ -1,0 +1,264 @@
+:root {
+    --software-icon-width: 36px;
+    --software-icon-height: 36px;
+
+    --violet: #5a2c63;
+    --red: #ff5439;
+    --orange: #ffb33a;
+    --turquoise: #92bbfc;
+}
+
+.main {
+    width: 85%;
+    margin-left: 16.5%;
+}
+
+.main-title-alone {
+    margin-left: 4%;
+}
+
+.divider {
+    width: calc(60px + 80%);
+    height: 1px;
+    background: #bcbcbc;
+    margin: 0 0 0 4%; 
+}
+
+.divider:first-of-type {
+    margin-top: 30px;
+}
+
+.software {
+    padding-left: 4%;
+    transition: all 0.25s;
+}
+
+.software-title {
+    width: 80%
+    height: 40px;
+    padding: 20px 3% 5px 0;
+}
+
+.software-icon {
+    width: var(--software-icon-width);
+    height: var(--software-icon-height);
+    border: 2px solid var(--purple);
+    float: left;
+}
+
+
+.software-icon p {
+    position: absolute;
+    font-size: 20px;
+    width: var(--software-icon-width);
+    text-align: center;
+    line-height: var(--software-icon-height);
+    color: var(--purple);
+    z-index: 1;
+}
+
+.software:hover .software-icon p {
+    color: white;
+    transition: all 0.2s;
+    transition-delay: 0.1s;
+}
+
+
+.software .color-bar {
+    background: var(--purple);
+    position: absolute;
+    width: 0;
+    height: var(--software-icon-height);
+    transition: all 0.5s;
+}
+
+.software:hover .color-bar{
+    width: var(--software-icon-width);
+}
+
+.software-name {
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.software-click {
+    margin-left: 20px;
+    opacity: 0;
+    font-family: Arial;
+    font-size: 12px;
+    transition: all 0.25s;
+}
+
+.software:hover .software-click {
+    opacity: 1;
+    color: grey;
+    margin-left: 60px;
+}
+
+.software-description {
+    width: 80%;
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
+
+/*----------------------- after effects icon ------------------*/
+
+#after-effects:hover {
+    background: #f7e5ff;
+}
+
+#ae-icon {
+    border-color: var(--violet);
+}
+
+#ae-icon .color-bar {
+    background: var(--violet);
+}
+
+#ae-icon p {
+    color: var(--violet);
+}
+
+.software:hover #ae-icon p {
+    color: white;
+}
+
+/*----------------------- animate icon ------------------*/
+
+#animate:hover {
+    background: #ffeded;
+}
+
+#an-icon {
+    border-color: var(--red);
+}
+
+#an-icon .color-bar {
+    background: var(--red);
+}
+
+#an-icon p {
+    color: var(--red);
+}
+
+.software:hover #an-icon p {
+    color: white;
+}
+
+
+/*----------------------- illustrator icon ------------------*/
+
+#illustrator:hover {
+    background: #fcf7d6;
+}
+
+#ai-icon {
+    border-color: var(--orange);
+}
+
+#ai-icon .color-bar {
+    background: var(--orange);
+}
+
+#ai-icon p {
+    color: var(--orange);
+}
+
+.software:hover #ai-icon p {
+    color: white;
+}
+
+/*----------------------- photoshop icon ------------------*/
+
+#photoshop:hover {
+    background: #e8f3f4;
+}
+
+#ps-icon {
+    border-color: var(--turquoise);
+}
+
+#ps-icon .color-bar {
+    background: var(--turquoise);
+}
+
+#ps-icon p {
+    color: var(--turquoise);
+}
+
+.software:hover #ps-icon p {
+    color: white;
+}
+
+/*-------------------------------------------------------*/
+
+
+.src {
+    color: grey;
+    font-size: 10px;
+}
+
+@media (max-width: 550px) {
+
+    :root {
+        --software-icon-width: 28px;
+        --software-icon-height: 28px;
+    }
+
+    .main {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .main-title-alone {
+        margin-left: 7%;
+    }
+
+    #colorWell {
+        margin-left: 7%;
+    }
+
+    .divider {
+        width: calc(40px + 80%);
+    }
+
+    .software {
+        padding-left: 7%;
+    }  
+
+    .software-icon {
+        border: 1px solid var(--purple);
+    }
+
+
+    .software-icon p {
+        font-size: 15px;
+    }
+
+    .software-title {
+        height: 30px;
+    }
+
+    .software-name {
+        margin-left: 40px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .software-click {
+        margin-left: 20px;
+    }
+
+    .software:hover .software-click {
+        margin-left: 40px;
+    }
+
+    .software-description {
+        width: auto;
+        margin-left: 40px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+}

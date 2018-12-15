@@ -1,0 +1,70 @@
+
+:root {
+    --youtube-width: 560px; 
+}
+
+.youtube {
+	width: var(--youtube-width);
+	height: calc( 0.5625 * (var(--youtube-width)) );
+	margin-left: calc( 50% - (calc( 0.5 * var(--youtube-width) ) ) );
+}
+
+.divider {
+	width: 80%;
+	height: 2px;
+	background: #c4c4c4;
+	margin: 50px 0 50px 10%;
+}
+
+.meme-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-small {
+	width: 50%;
+}
+
+ img{
+ 	border: 7px #e2e2e2 solid;
+ }
+
+ .desc {
+ 	width: 100%;
+ 	text-align: center;
+ 	font-family: Arial;
+	color: grey;
+	font-size: 11px;
+ }
+
+@media (max-width: 800px) {
+
+	:root {
+    --youtube-width: 50vw; 
+	}
+
+	.img-small {
+		width: auto;
+		max-width: 85%;
+		max-height: 85%;
+	}
+
+	.img-tall {
+		max-width: 70%;
+		max-height: 70%;
+	}
+
+	.img-square {
+		max-width: 85%;
+		max-height: 85%;
+	}
+
+	.img-long {
+		max-width: 75%;
+		max-height: 75%;
+	}
+	.desc {
+		font-size: 8px;
+	}
+}

@@ -1,0 +1,142 @@
+:root {
+    --red: #f45342;
+    --purple-grey: #35465c;
+    --blue: #30abf2;
+}
+
+.sub-text {
+    margin-left: 2em;
+}
+
+.submissions {
+    line-height: 25px;
+}
+
+.purple-text {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 10px;
+    margin: 20px 0 30px 0;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    color: black;
+    border-bottom: 1px black solid;
+}
+
+#none {
+    font-style: italic;
+}
+
+#last-table {
+    border-bottom: 1px black solid;
+}
+
+.space {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    float: left;
+}
+
+.bottom-buttons {
+    width: 100%;
+    height: var(--syllabus-height);
+    margin-bottom: 50px;
+}
+
+
+/*----------------------- youtube button ---------------------*/
+
+#youtube {
+    border-color: var(--red);
+}
+
+#youtube p {
+    color: var(--red);
+}
+
+#youtube .color-bar {
+    background: var(--red);
+}
+
+#youtube:hover p {
+    color: white;
+}
+
+
+/*----------------------- tumblr button ---------------------*/
+
+#tumblr {
+    border-color: var(--purple-grey);
+}
+
+#tumblr p {
+    color: var(--purple-grey);
+}
+
+#tumblr .color-bar {
+    background: var(--purple-grey);
+}
+
+#tumblr:hover p {
+    color: white;
+}
+
+
+/*----------------------- vimeo button ---------------------*/
+
+#vimeo {
+    border-color: var(--blue);
+}
+
+#vimeo p {
+    color: var(--blue);
+}
+
+#vimeo .color-bar {
+    background: var(--blue);
+}
+
+#vimeo:hover p {
+    color: white;
+}
+
+
+
+@media (max-width: 800px) {
+
+    table{
+        width: 80%;
+    }
+
+    .bottom-buttons {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .space {
+        float: none;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    table{
+        width: 95%;
+        font-size: 10px;
+    }
+}

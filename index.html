@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>98-331: Animation & Video Editing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index-style.css">
+    <link rel="icon" href="assets/icons/film.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <div class='title-header'>
+            <p class='main-title'> 98-331: Student-Taught Course | Animation & Video Editing </p>
+            <input type='color' name='main-color' id='colorWell'/>
+            <div class='reset-divider'></div>
+            <a onclick="resetColor()" href="#" class='reset'>reset</a>
+        </div>
+        <p class='sub-title' style='margin-top: 15px;'> Fall 2018 </p>
+        <p class='sub-title'> Thurs. 6:30 - 8:00pm | CFA 317 </p>
+        <p class='sub-title'> 3 Units </p>
+        <p class='first-body-text'> This course introduces the studio standards for video-editing and animation by merging classical animation concepts with professional video-editing techniques and software. Students will be exposed to Hand-Drawn Animation, Vector-Based Animation, Video Editing, Kinetic Typography & Motion Graphics. This course will go over the creative process from storyboarding & animatics to editing & post-production. The course is split into two halves: the first half with a focus on video editing & motion graphics, and the second half with a focus on 2D animation. No artistic background is required, although those with drawing experience may find the animation portion of the course to be easier.</p>
+        
+        <div class='syllabus' id='syllabus'>
+            <p> Syllabus </p>
+            <div class='color-bar'></div>
+        </div>
+
+        <div class='divider'></div>
+
+
+        <p class='title'> Contents </p>
+        <div class='contents'>
+
+            <div class='content-break'>
+                <p class='content-left'> Overview </p>
+                <p class='content-right'> Homepage & Syllabus </p>
+            </div>
+
+            <div class='content-break'>
+                <p class='content-left'> Calendar </p>
+                <p class='content-right'> List of Lessons & Coverage Times </p>
+            </div>
+
+            <div class='content-break'>
+                <p class='content-left'> Assignments </p>
+                <p class='content-right'> List of Assignments, Submission Details, & Due Dates </p>
+            </div>
+
+            <div class='content-break'>
+                <p class='content-left'> Files </p>
+                <p class='content-right'> Directory of Files </p>
+            </div>
+
+            <div class='content-break'>
+                <p class='content-left'> Software </p>
+                <p class='content-right'> More Info About the Software Used in the Course </p>
+            </div>
+
+            <div class='content-break'>
+                <p class='content-left'> Resources </p>
+                <p class='content-right'> Things To Help You During & After the Journey's End </p>
+            </div>
+
+            <div class='content-break'>
+                <p class='content-left'> FAQ </p>
+                <p class='content-right'> Frequently-Asked Questions </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='assets/icons/drive.png'>
+            <div class='footer-text' id='drive-footer'>AVE Drive</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
