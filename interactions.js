@@ -9,7 +9,7 @@ if(sessionStorage.getItem("bg_color") != null) {
     defaultColor = sessionStorage.getItem("bg_color");
 }
 else {
-    defaultColor = '#5a2c63'; 
+    defaultColor = '#76b438'; 
 }
 curColor = defaultColor;
 
@@ -100,8 +100,8 @@ $("#github-footer").click(function() {
     window.open('https://github.com/cardadfar/stuco-webdev-website', '_blank');
 });
 
-$("#drive-footer").click(function() {
-    window.open('https://drive.google.com/drive/folders/1MxXb-ClOQePgm1Dph5djVzd84thkhZBZ?usp=sharing', '_blank');
+$("#w3-footer").click(function() {
+    window.open('https://www.w3schools.com/', '_blank');
 });
 
 $("#syllabus-footer").click(function() {
@@ -143,55 +143,25 @@ $("#syllabus").click(function() {
     window.open('assets/files/syllabus.pdf', '_blank');
 });
 
-
-$("#cartoon-walls").click(function() {
-    window.open('assets/files/cartoon walls.zip', '_blank');
+$("#html-starter").click(function() {
+    window.open('assets/files/html_starter.html', '_blank');
 });
 
-
-$("#city-vectors").click(function() {
-    window.open('assets/files/city vectors.zip', '_blank');
+$("#json-parsing").click(function() {
+    window.open('assets/files/json_parsing.zip', '_blank');
 });
 
-$("#midterm-starter").click(function() {
-    window.open('assets/files/midterm starter.zip', '_blank');
-});
-
-
-$("#storyboard-template").click(function() {
-    window.open('assets/files/storyboard template.ai', '_blank');
-});
-
-
-$("#smiley-demo").click(function() {
-    window.open('assets/files/smiley demo.fla', '_blank');
-});
-
-
-$("#smiley-demo-completed").click(function() {
-    window.open('assets/files/smiley demo (completed).fla', '_blank');
-});
 
 
 /*-------------------SOFTWARE------------------*/
 
-$("#after-effects").click(function() {
-    window.open('https://www.adobe.com/products/aftereffects.html', '_blank');
+$("#sublime-text").click(function() {
+    window.open('https://www.sublimetext.com/', '_blank');
 });
 
-$("#animate").click(function() {
-    window.open('https://www.adobe.com/products/animate.html', '_blank');
+$("#jquery").click(function() {
+    window.open('https://jquery.com/', '_blank');
 });
-
-$("#illustrator").click(function() {
-    window.open('https://www.adobe.com/products/illustrator.html', '_blank');
-});
-
-$("#photoshop").click(function() {
-    window.open('https://www.adobe.com/products/photoshop.html', '_blank');
-});
-
-
 
 
 /*-------------------FAQ------------------*/

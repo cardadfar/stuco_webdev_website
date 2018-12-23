@@ -2,8 +2,6 @@
     --software-icon-width: 36px;
     --software-icon-height: 36px;
 
-    --violet: #5a2c63;
-    --red: #ff5439;
     --orange: #ffb33a;
     --turquoise: #92bbfc;
 }
@@ -102,94 +100,50 @@
     padding-bottom: 30px;
 }
 
-/*----------------------- after effects icon ------------------*/
+/*----------------------- sublime text icon ------------------*/
 
-#after-effects:hover {
-    background: #f7e5ff;
-}
-
-#ae-icon {
-    border-color: var(--violet);
-}
-
-#ae-icon .color-bar {
-    background: var(--violet);
-}
-
-#ae-icon p {
-    color: var(--violet);
-}
-
-.software:hover #ae-icon p {
-    color: white;
-}
-
-/*----------------------- animate icon ------------------*/
-
-#animate:hover {
-    background: #ffeded;
-}
-
-#an-icon {
-    border-color: var(--red);
-}
-
-#an-icon .color-bar {
-    background: var(--red);
-}
-
-#an-icon p {
-    color: var(--red);
-}
-
-.software:hover #an-icon p {
-    color: white;
-}
-
-
-/*----------------------- illustrator icon ------------------*/
-
-#illustrator:hover {
+#sublime-text:hover {
     background: #fcf7d6;
 }
 
-#ai-icon {
+#s-icon {
     border-color: var(--orange);
 }
 
-#ai-icon .color-bar {
+#s-icon .color-bar {
     background: var(--orange);
 }
 
-#ai-icon p {
+#s-icon p {
     color: var(--orange);
 }
 
-.software:hover #ai-icon p {
+.software:hover #s-icon p {
     color: white;
 }
 
-/*----------------------- photoshop icon ------------------*/
+/*----------------------- jquery icon ------------------*/
 
-#photoshop:hover {
+#jquery:hover {
     background: #e8f3f4;
 }
 
-#ps-icon {
+#jq-icon {
     border-color: var(--turquoise);
 }
 
-#ps-icon .color-bar {
+#jq-icon .color-bar {
     background: var(--turquoise);
 }
 
-#ps-icon p {
+#jq-icon p {
     color: var(--turquoise);
 }
 
-.software:hover #ps-icon p {
+.software:hover #jq-icon p {
     color: white;
 }
+
 
 /*-------------------------------------------------------*/
 
