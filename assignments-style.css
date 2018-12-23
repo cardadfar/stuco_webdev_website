@@ -78,38 +78,38 @@ th {
 
 /*----------------------- tumblr button ---------------------*/
 
-#tumblr {
+#git {
     border-color: var(--purple-grey);
 }
 
-#tumblr p {
+#git p {
     color: var(--purple-grey);
 }
 
-#tumblr .color-bar {
+#git .color-bar {
     background: var(--purple-grey);
 }
 
-#tumblr:hover p {
+#git:hover p {
     color: white;
 }
 
 
 /*----------------------- vimeo button ---------------------*/
 
-#vimeo {
+#git-pages {
     border-color: var(--blue);
 }
 
-#vimeo p {
+#git-pages p {
     color: var(--blue);
 }
 
-#vimeo .color-bar {
+#git-pages .color-bar {
     background: var(--blue);
 }
 
-#vimeo:hover p {
+#git-pages:hover p {
     color: white;
 }
 

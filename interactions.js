@@ -121,20 +121,14 @@ $("#google-drive").click(function() {
 });
 
 
-$("#youtube").click(function() {
-    window.open('https://www.youtube.com', '_blank');
+$("#git").click(function() {
+    window.open('https://github.com/', '_blank');
 });
 
 
-$("#tumblr").click(function() {
-    window.open('https://www.tumblr.com', '_blank');
+$("#git-pages").click(function() {
+    window.open('https://pages.github.com/', '_blank');
 });
-
-
-$("#vimeo").click(function() {
-    window.open('https://www.vimeo.com', '_blank');
-});
-
 
 
 /*-------------------FILES------------------*/
