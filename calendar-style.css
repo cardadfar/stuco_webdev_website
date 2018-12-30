@@ -23,6 +23,11 @@ th, td {
     color: #424242;
 }
 
+.lecture:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 tr:nth-child(even){
     background-color: #f2f2f2;
 }

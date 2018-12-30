@@ -40,7 +40,7 @@ function updateAll(event) {
 }
 
 function resetColor() {
-    curColor = "#5a2c63";
+    curColor = defaultColor;
     colorWell.value = curColor;
     $(':root').css("--purple", curColor);
     sessionStorage.setItem("bg_color", curColor);
@@ -145,6 +145,65 @@ $("#json-parsing").click(function() {
     window.open('assets/files/json_parsing.zip', '_blank');
 });
 
+$("#week-01").click(function() {
+    window.open('assets/lectures/BPW_Lecture_01.pptx', '_blank');
+});
+
+$("#week-02").click(function() {
+    window.open('https://drive.google.com/file/d/1NwpzxxpWRNYMBS5usW38786q91HW8hiv/view?usp=sharing', '_blank');
+});
+
+$("#week-03").click(function() {
+    window.open('https://drive.google.com/file/d/1yozHn9bOd7ZMcpVNbLx9WoTXUZ4-qzak/view?usp=sharing', '_blank');
+});
+
+$("#week-04").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-05").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-06").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-07").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-01").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-08").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-09").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-10").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-11").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-12").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-13").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
+
+$("#week-14").click(function() {
+    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+});
 
 
 /*-------------------SOFTWARE------------------*/
