@@ -219,59 +219,55 @@ $("#week-01").click(function() {
 });
 
 $("#week-02").click(function() {
-    window.open('https://drive.google.com/file/d/1NwpzxxpWRNYMBS5usW38786q91HW8hiv/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_02.pptx', '_blank');
 });
 
 $("#week-03").click(function() {
-    window.open('https://drive.google.com/file/d/1yozHn9bOd7ZMcpVNbLx9WoTXUZ4-qzak/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_03.pptx', '_blank');
 });
 
 $("#week-04").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_04.pptx', '_blank');
 });
 
 $("#week-05").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_05.pptx', '_blank');
 });
 
 $("#week-06").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_06.pptx', '_blank');
 });
 
 $("#week-07").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
-});
-
-$("#week-01").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_07.pptx', '_blank');
 });
 
 $("#week-08").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_08.pptx', '_blank');
 });
 
 $("#week-09").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_09.pptx', '_blank');
 });
 
 $("#week-10").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_10.pptx', '_blank');
 });
 
 $("#week-11").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_11.pptx', '_blank');
 });
 
 $("#week-12").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_12.pptx', '_blank');
 });
 
 $("#week-13").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_13.pptx', '_blank');
 });
 
 $("#week-14").click(function() {
-    window.open('https://drive.google.com/file/d/1mg0ZJ3Q9c7ul9mvocubxArBP4YDXDPEt/view?usp=sharing', '_blank');
+    window.open('assets/lectures/BPW_Lecture_14.pptx', '_blank');
 });
 
 
