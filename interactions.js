@@ -131,6 +131,67 @@ $("#git-pages").click(function() {
 });
 
 
+$("#google-drive").click(function() {
+    window.open('https://drive.google.com/drive/u/1/folders/12t-AGyYU2nVCGor-ucb1eVdE1uLBTMYh', '_blank');
+});
+
+
+/*-------------------POLLS------------------*/
+
+
+$(".poll-02").click(function() {
+    window.open('https://goo.gl/forms/rhz3CYY8OEoNeU782', '_blank');
+});
+
+$(".poll-03").click(function() {
+    window.open('https://goo.gl/forms/JzJ0f8gLEeUHtNa22', '_blank');
+});
+
+$(".poll-04").click(function() {
+    window.open('https://goo.gl/forms/UNrLcaJB4mKpOAqa2', '_blank');
+});
+
+$(".poll-05").click(function() {
+    window.open('https://goo.gl/forms/US7Zz4IVCyanXeaI3', '_blank');
+});
+
+$(".poll-06").click(function() {
+    window.open('https://goo.gl/forms/BfAPLhHVftZ6n7Is1', '_blank');
+});
+
+$(".poll-07").click(function() {
+    window.open('https://goo.gl/forms/uy2RH7L5j603sdIL2', '_blank');
+});
+
+$(".poll-08").click(function() {
+    window.open('https://goo.gl/forms/zLZg4oUol6tOkxfo2', '_blank');
+});
+
+$(".poll-09").click(function() {
+    window.open('https://goo.gl/forms/BCqyussxXn0m47hr1', '_blank');
+});
+
+$(".poll-10").click(function() {
+    window.open('https://goo.gl/forms/pqzilKgZGpIST2tg1', '_blank');
+});
+
+$(".poll-11").click(function() {
+    window.open('https://goo.gl/forms/jngdmzoPm53Yczox1', '_blank');
+});
+
+$(".poll-12").click(function() {
+    window.open('https://goo.gl/forms/FlebBG4j6ZODpGWd2', '_blank');
+});
+
+$(".poll-13").click(function() {
+    window.open('https://goo.gl/forms/PsWLbWBQOwSzzJo02', '_blank');
+});
+
+$(".poll-14").click(function() {
+    window.open('https://goo.gl/forms/tQXasftxXt2j4JvP2', '_blank');
+});
+
+
 /*-------------------FILES------------------*/
 
 $("#syllabus").click(function() {
@@ -141,8 +202,16 @@ $("#html-starter").click(function() {
     window.open('assets/files/html_starter.html', '_blank');
 });
 
+$("#nav-bar").click(function() {
+    window.open('assets/files/nav_bar.html', '_blank');
+});
+
 $("#json-parsing").click(function() {
     window.open('assets/files/json_parsing.zip', '_blank');
+});
+
+$("#search-bar").click(function() {
+    window.open('assets/files/search_bar.zip', '_blank');
 });
 
 $("#week-01").click(function() {

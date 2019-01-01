@@ -2,6 +2,8 @@
     --red: #f45342;
     --purple-grey: #35465c;
     --blue: #30abf2;
+    --green: #2fb73d;
+
 }
 
 .sub-text {
@@ -17,9 +19,14 @@
     font-weight: bold;
 }
 
+.polls:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 30%;
     font-family: Arial;
     font-size: 14px;
     line-height: 10px;
@@ -53,30 +60,30 @@ th {
 .bottom-buttons {
     width: 100%;
     height: var(--syllabus-height);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
-/*----------------------- youtube button ---------------------*/
+/*----------------------- google drive button ---------------------*/
 
-#youtube {
-    border-color: var(--red);
+#google-drive {
+    border-color: var(--green);
 }
 
-#youtube p {
-    color: var(--red);
+#google-drive p {
+    color: var(--green);
 }
 
-#youtube .color-bar {
-    background: var(--red);
+#google-drive .color-bar {
+    background: var(--green);
 }
 
-#youtube:hover p {
+#google-drive:hover p {
     color: white;
 }
 
 
-/*----------------------- tumblr button ---------------------*/
+/*----------------------- git button ---------------------*/
 
 #git {
     border-color: var(--purple-grey);
@@ -95,7 +102,7 @@ th {
 }
 
 
-/*----------------------- vimeo button ---------------------*/
+/*----------------------- git pages button ---------------------*/
 
 #git-pages {
     border-color: var(--blue);

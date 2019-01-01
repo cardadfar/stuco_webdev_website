@@ -26,6 +26,7 @@ th, td {
 .lecture:hover {
     color: black;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 tr:nth-child(even){
