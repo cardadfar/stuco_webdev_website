@@ -214,6 +214,14 @@ $("#search-bar").click(function() {
     window.open('assets/files/search_bar.zip', '_blank');
 });
 
+$("#parallax").click(function() {
+    window.open('assets/files/parallax.zip', '_blank');
+});
+
+$("#interactive-elements").click(function() {
+    window.open('assets/files/interactive_elements.html', '_blank');
+});
+
 $("#week-01").click(function() {
     window.open('assets/lectures/BPW_Lecture_01.pptx', '_blank');
 });
