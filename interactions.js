@@ -206,6 +206,10 @@ $("#nav-bar").click(function() {
     window.open('assets/files/nav_bar.html', '_blank');
 });
 
+$("#animation-cycles").click(function() {
+    window.open('assets/files/animation-cycles.html', '_blank');
+});
+
 $("#json-parsing").click(function() {
     window.open('assets/files/json_parsing.zip', '_blank');
 });
@@ -227,55 +231,55 @@ $("#week-01").click(function() {
 });
 
 $("#week-02").click(function() {
-    window.open('assets/lectures/BPW_Lecture_02.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_02.pdf', '_blank');
 });
 
 $("#week-03").click(function() {
-    window.open('assets/lectures/BPW_Lecture_03.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_03.pdf', '_blank');
 });
 
 $("#week-04").click(function() {
-    window.open('assets/lectures/BPW_Lecture_04.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_04.pdf', '_blank');
 });
 
 $("#week-05").click(function() {
-    window.open('assets/lectures/BPW_Lecture_05.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_05.pdf', '_blank');
 });
 
 $("#week-06").click(function() {
-    window.open('assets/lectures/BPW_Lecture_06.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_06.pdf', '_blank');
 });
 
 $("#week-07").click(function() {
-    window.open('assets/lectures/BPW_Lecture_07.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_07.pdf', '_blank');
 });
 
 $("#week-08").click(function() {
-    window.open('assets/lectures/BPW_Lecture_08.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_08.pdf', '_blank');
 });
 
 $("#week-09").click(function() {
-    window.open('assets/lectures/BPW_Lecture_09.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_09.pdf', '_blank');
 });
 
 $("#week-10").click(function() {
-    window.open('assets/lectures/BPW_Lecture_10.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_10.pdf', '_blank');
 });
 
 $("#week-11").click(function() {
-    window.open('assets/lectures/BPW_Lecture_11.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_11.pdf', '_blank');
 });
 
 $("#week-12").click(function() {
-    window.open('assets/lectures/BPW_Lecture_12.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_12.pdf', '_blank');
 });
 
 $("#week-13").click(function() {
-    window.open('assets/lectures/BPW_Lecture_13.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_13.pdf', '_blank');
 });
 
 $("#week-14").click(function() {
-    window.open('assets/lectures/BPW_Lecture_14.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_14.pdf', '_blank');
 });
 
 

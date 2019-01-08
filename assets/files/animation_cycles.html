@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animation Cycles</title>                          
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <style type="text/css">
+
+    	body {
+    		margin-left: 10%;
+    		margin-right: 10%;
+    		margin-top: 40px;
+    		background: #f9f9f9;
+    	}
+
+    	p {
+    		font-family: Arial;
+    		font-size: 18px;
+    		color: #777777;
+    	}
+
+    	.divider {
+    		width: 100%;
+    		height: 1px;
+    		margin-top: 25px;
+    		margin-bottom: 25px;
+    		background: #afafaf;
+    	}
+
+    	.circle {
+    		width: 100px;
+    		height: 100px;
+    		background: #a5c7ff;
+      		border-radius: 50%
+    	}
+
+    	@keyframes move-right {
+    		from {margin-left: 0px;}
+    		to {margin-left: calc(100% - 100px);}
+    	}
+
+    	.circle:active {
+    		animation: move-right 1s;
+    		animation-iteration-count: infinite;
+    		animation-direction: alternate;
+    		animation-fill-mode: both;
+    	}
+
+    	#linear:active {
+    		animation-timing-function: linear;
+    	}
+
+    	#ease-in:active {
+    		animation-timing-function: ease-in;
+    	}
+
+    	#ease-out:active {
+    		animation-timing-function: ease-out;
+    	}
+
+    	#ease-in-out:active {
+    		animation-timing-function: ease-in-out;
+    	}
+
+    	#ease:active {
+    		animation-timing-function: ease;
+    	}
+
+    </style>
+
+    <p> click (and hold) on a shape to play its animation cycle
+
+    <div class=divider></div>
+    <p> - linear - </p>
+    <div class=circle id=linear></div>
+    <div class=divider></div>
+
+    <p> - ease in - </p>
+    <div class=circle id=ease-in></div>
+    <div class=divider></div>
+
+    <p> - ease out - </p>
+    <div class=circle id=ease-out></div>
+    <div class=divider></div>
+
+    <p> - ease in out - </p>
+    <div class=circle id=ease-in-out></div>
+    <div class=divider></div>
+
+    <p> - ease - </p>
+    <div class=circle id=ease></div>
+    <div class=divider></div>
+
+</body>
+</html>
