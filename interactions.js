@@ -223,7 +223,7 @@ $("#interactive-elements").click(function() {
 });
 
 $("#week-01").click(function() {
-    window.open('assets/lectures/BPW_Lecture_01.pptx', '_blank');
+    window.open('assets/lectures/BPW_Lecture_01.pdf', '_blank');
 });
 
 $("#week-02").click(function() {
