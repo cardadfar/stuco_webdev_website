@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Search Test</title>                         
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<style type="text/css">
+
+		body {
+			margin: 0;
+		}
+
+		.warning {
+			margin: 0;
+			text-align: center;
+			background-color: #ededed;
+			color: #919191;
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			font-family: Arial;
+		}
+		
+		.center-text {
+			font-family: Arial;
+			font-size: 100px;
+			text-align: center;
+			width: 100%;
+			margin-top: 15%;
+			margin-bottom: 20px;
+		}
+
+		.searchbar {
+			width: 50%;
+			height: 35px;
+			margin-left: 25%;
+			line-height: 35px;
+			font-size: 18px;
+			text-indent: 10px;
+
+		}
+
+		.projects {
+			width: 50%;
+			margin-left: 25%;
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+
+		.projects > p {
+			text-indent: 25px;
+			color: grey;
+		}
+
+	</style>
+
+	<script type="text/javascript">
+
+
+		function loadData(k) {
+
+			var lookup = k.toLowerCase();
+
+			//Load JSON
+			$.getJSON( 'projects.json', function( data ) {
+
+
+				//Turn off display of each element
+				$.each( data, function( key, val ) {
+
+					var sub_key = '.' + key;
+					$(sub_key).css('display', 'none');
+
+				});
+		  
+		  		//Turn on display of elements with matching keywords
+				$.each( data, function( key, val ) {
+					
+					for(var i = 0; i < val.length; i++)
+					{
+
+						console.log(lookup + " vs " + val[i]);
+
+						if( val[i].includes(lookup) )
+						{
+							var main_key = '.' + key;
+							$(main_key).css('display', 'block');
+						}
+					}
+
+				});
+
+			});
+
+		}
+
+
+		
+		$(document).ready(function(){
+
+		    $(".searchbar").keyup(function(event) {
+
+		        var k = $(this).val();
+
+		        console.log(k);
+
+		        loadData(k)
+
+		    });
+		});
+
+
+	</script>
+
+
+	<p class=warning> Make sure local host is enabled! </p>
+
+	<p class=center-text> Woogle </p>
+	<input class=searchbar type="text" placeholder="Search For a Project.."> 
+
+
+
+	<div class='projects project_1'> 
+		<a href='search.html'> My First Project </a>
+		<p> This was a really cool project I did my first year. Hope you like it! </p>
+	</div>
+
+	<div class='projects project_2'> 
+		<a href='search.html'> My Second Project </a>
+		<p> Not as great as the first one, but still put a lot of effort into it. Please take a look! </p>
+	</div>
+
+	<div class='projects project_3'> 
+		<a href='search.html'> My Third Project </a>
+		<p> I put my heart, soul, and wallet into this project. You're gonna love it! </p>
+	</div>
+
+
+
+</body>
+</html>

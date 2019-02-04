@@ -207,7 +207,7 @@ $("#nav-bar").click(function() {
 });
 
 $("#animation-cycles").click(function() {
-    window.open('assets/files/animation-cycles.html', '_blank');
+    window.open('assets/files/animation_cycles.html', '_blank');
 });
 
 $("#json-parsing").click(function() {
