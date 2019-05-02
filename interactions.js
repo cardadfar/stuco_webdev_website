@@ -183,12 +183,8 @@ $(".poll-12").click(function() {
     window.open('https://goo.gl/forms/FlebBG4j6ZODpGWd2', '_blank');
 });
 
-$(".poll-13").click(function() {
-    window.open('https://goo.gl/forms/PsWLbWBQOwSzzJo02', '_blank');
-});
-
-$(".poll-14").click(function() {
-    window.open('https://goo.gl/forms/tQXasftxXt2j4JvP2', '_blank');
+$(".poll-wrap-up").click(function() {
+    window.open('https://forms.gle/bXumeD92czJ4Z8Ha6', '_blank');
 });
 
 
