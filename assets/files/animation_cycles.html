@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Animation Cycles</title>                          
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -38,38 +39,6 @@
       		border-radius: 50%
     	}
 
-    	@keyframes move-right {
-    		from {margin-left: 0px;}
-    		to {margin-left: calc(100% - 100px);}
-    	}
-
-    	.circle:active {
-    		animation: move-right 1s;
-    		animation-iteration-count: infinite;
-    		animation-direction: alternate;
-    		animation-fill-mode: both;
-    	}
-
-    	#linear:active {
-    		animation-timing-function: linear;
-    	}
-
-    	#ease-in:active {
-    		animation-timing-function: ease-in;
-    	}
-
-    	#ease-out:active {
-    		animation-timing-function: ease-out;
-    	}
-
-    	#ease-in-out:active {
-    		animation-timing-function: ease-in-out;
-    	}
-
-    	#ease:active {
-    		animation-timing-function: ease;
-    	}
-
     </style>
 
     <p> click (and hold) on a shape to play its animation cycle
@@ -94,6 +63,20 @@
     <p> - ease - </p>
     <div class=circle id=ease></div>
     <div class=divider></div>
+
+
+
+    <script type="text/javascript">
+        
+        $("#linear").hover( function() {
+
+            console.log("got here:");
+            $("#linear").animate({opacity: 0.25}, 500);
+            $("#linear").animate({'margin-left': '1000px'}, 500);
+
+        });
+
+    </script>
 
 </body>
 </html>
