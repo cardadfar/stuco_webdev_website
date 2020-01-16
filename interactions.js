@@ -140,7 +140,7 @@ $("#google-drive").click(function() {
 
 
 $(".poll-01").click(function() {
-    window.open('https://forms.gle/VQ5mYhjprpnbMzFQ6', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLScj2gT2rg6K8rzFF8cp23WHAFEC_ZJXJ6cZRS576x6iuFK0Yg/viewform?usp=sf_link', '_blank');
 });
 
 $(".poll-02").click(function() {
