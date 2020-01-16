@@ -139,6 +139,10 @@ $("#google-drive").click(function() {
 /*-------------------POLLS------------------*/
 
 
+$(".poll-01").click(function() {
+    window.open('https://forms.gle/VQ5mYhjprpnbMzFQ6', '_blank');
+});
+
 $(".poll-02").click(function() {
     window.open('https://goo.gl/forms/rhz3CYY8OEoNeU782', '_blank');
 });
