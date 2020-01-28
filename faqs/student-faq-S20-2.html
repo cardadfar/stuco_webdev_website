@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAQ | 98-177: Building Personal Websites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../index-style.css">
+    <link rel="stylesheet" type="text/css" href="faq-style.css">
+    <link rel="icon" href="../assets/icons/code.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <p class='main-title-alone'> 98-177: Student-Taught Course | Building Personal Websites </p>
+
+        <div class='close-all'> Close All </div>
+
+        <div class='qa'>
+        	<p class="question">What's the course to learn how to use Adobe stuff??</p>
+        	<p class="answer">98-331 Animation & Video Editing (course website @ <a href=http://tinyurl.com/stuco-ave target="_blank">http://tinyurl.com/stuco-ave</a>). We cover standard 2D animation practices and look at video editing, motion graphics, hand-drawn animation and more. The course runs every fall.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">How do you combine HTML/Javascript/JQuery together?</p>
+        	<p class="answer">You can include specific script and style tags to reference the directory of your .css and .js files in your.html file. That way, when you open up your .html file, it reads from these other files. We will be covering how to do this in a future lecture.</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">Do you know where we can find cool website animation resources? :D</p>
+        	<p class="answer"> <a href=https://www.w3schools.com target="_blank">Here</a> is an amazing place to start. They have live demos that you can edit and run in real-time that allow you to test different animation features before you integrate them into your site. <a href=https://cubic-bezier.com target="_blank">This</a> is another great tool that you can use to visualize and edit interpolation splines. We’ll be covering a lot more helpful tools in the animation lecture.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">What does changing the 'title' and the words in the p tags supposed to do on my github website? I changed those on my html file but nothing changed when I reloaded my github website.</p>
+        	<p class="answer">The title tag will change the title you see at the top of your tab. The p tag is a paragraph tag that indents and provides space above and below the text. You won’t see a difference if you edit it out with only one line of text, yet if you have multiple lines, this would cause the text to merge into the paragraph above or below it. If you don’t see any changes, it could mean that you’re not pushing your files correctly. Try clicking on the file in the github repo to see if it actually updated after pushing changes.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">How did you start learning web dev?</p>
+        	<p class="answer">My older brother (and best friend) was a web developer and taught me an entire two semesters worth of web development in 4 weeks over the winter break of my freshman year. Since then, I’ve been picking up some startup work and internships in web development to help me get better. I’ve since retired from the web development industry but am happy to teach it to students : ) </p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">Thank you !!</p>
+        	<p class="answer">You’re welcome !!</p>
+        </div>
+        
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='../assets/icons/w3.png'>
+            <div class='footer-text' id='w3-footer'>W3Schools</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
