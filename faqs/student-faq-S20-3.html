@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAQ | 98-177: Building Personal Websites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../index-style.css">
+    <link rel="stylesheet" type="text/css" href="faq-style.css">
+    <link rel="icon" href="../assets/icons/code.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <p class='main-title-alone'> 98-177: Student-Taught Course | Building Personal Websites </p>
+
+        <div class='close-all'> Close All </div>
+
+        <div class='qa'>
+        	<p class="question">Will we learn React and Svelte (also is HTML markup or meta language)?</p>
+        	<p class="answer">We do not cover React nor Svelte in this course, although <a href=https://www.w3schools.com/REACT/default.asp>W3 has some great references</a>. HTML is a markup language since it's used to annotate content from a website. If you're interested in learning about meta languages, take 15-150! </p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">Can I find the demo code you used in class somewhere? Sometimes you go a bit fast but I'm not sure if everyone else feels the same way.</p>
+        	<p class="answer">I plan on posting the code used for each demo on the course site after class. You're free (and encouraged!) to stop me during lecture if I ever go fast. Chances are if you think I'm talking fast, then other people are too.</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">What is the difference between HTML and CSS?</p>
+        	<p class="answer">HTML is used to group different pieces of content together, while CSS allows you to style the content. This is particularly useful when you want to apply stylings to a group of elements rather than each element individually (also, as we will see, applying a property to a group is not always the same as applying the same property to each individual element in that group). Think of HTML as the wooden structure to your house that you decorate with CSS.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">I put bunnies as my image :D</p>
+        	<p class="answer">Yay! Bunnies are cute. Did you know that the highest number of spotted bunnies on campus was by Scott Hall (the Computer Graphics lab)? How ironic!</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">Any questions so far?</p>
+        	<p class="answer">"Nope" - more than half of students.</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">What's your favorite website?</p>
+        	<p class="answer"><a href=http://hizalcelik.com>Hizal Celik (BFA '19)</a> was a friend of mine who has one of the best resume websites I've seen up to date. He was also known for <a href=https://hizalcelik.com/city/>making a single-frame powerpoint animation out of 45000 shapes in PowerPoint</a>.</p>
+        </div>
+        
+        <div class='qa'>
+            <p class="question">Does all your code need to be in a box for your website to look nice?</p>
+            <p class="answer">'box' was just the name I gave the class in today's demo. Having a div around your elements is very useful when you want to group elements together, and is necessary in websites when you want to organize your content into groups.</p>
+        </div>
+        
+        <div class='qa'>
+            <p class="question">Can you go over transitions for CSS?</p>
+            <p class="answer">We will be going over transitions during Week 7's lecture, although feel free to look ahead. The intent of holding off animations is that I want to make you comfortable building a static site before adding in animations.</p>
+        </div>
+        
+        <div class='qa'>
+            <p class="question">What are some specific examples about when you would use an ID over a class?</p>
+            <p class="answer">The biggest (and probably only) benefit to using an ID is that you can call the ID at the end of your URL, and your webpage would pre-scroll to the location of that ID. For example, if you had the website www.coolsite.com/ with an ID labeled #fun-stuff halfway down the page, then loading www.coolsite.com/#fun-stuff would start the page halfway scrolled.</p>
+        </div>
+        
+        <div class='qa'>
+            <p class="question">I know that bootstrap is often used for more complicated elements for webpages. Are we avoiding that altogether so that we code the entire page ourselves?</p>
+            <p class="answer">Yes. It's very important to get comfortable with CSS in this class, and Bootstrap has the tendancy to make you avoid writing your own CSS by importing libraries. You get a lot more out of trying to build new properties by combining existing CSS properties than you would out of Bootstrap.</p>
+        </div>
+        
+        <div class='qa'>
+            <p class="question">Can I define CSS class anywhere in my html file as long as it's defined before I call the class?</p>
+            <p class="answer">Yes. It is usually recommended to define it at the top since its all in one neat place for you to see.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Where do you get inspirations of cool features to put on your website?</p>
+            <p class="answer">I usually just browse Google. I'm very passive about looking for inspiration personally. Instead of searching for websites when I need new inspiration, I just build inspiration as I bounce between websites during my daily internet searches and write down/screenshot anything I think loks good.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Can you provide some specific suggestions of tutorials based on the content of the week.</p>
+            <p class="answer">I can look into this. Codeacademy and W3 are great places to start, and I can always spend some time fetching additional resources before each class if students would like.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">I don't know how to adjust the font and size of the title of my webpage and text.</p>
+            <p class="answer">To adjust text, use the font-size property followed by the number of pixels (font-size: 10px). To adjust the font type, use font-family followed by the font name in qoutes (font-family: "Times New Roman"). Most basic serif and san-serif fonts are pre-loaded, although for more specific fonts, you will have to include a font file (.otf) in your directory and pre-load the font in your CSS file</p>
+        </div>
+        
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='../assets/icons/w3.png'>
+            <div class='footer-text' id='w3-footer'>W3Schools</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
