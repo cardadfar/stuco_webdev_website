@@ -202,6 +202,10 @@ $("#html-starter").click(function() {
     window.open('assets/files/html_starter.html', '_blank');
 });
 
+$("#basic_content").click(function() {
+    window.open('assets/files/basic_content.html', '_blank');
+});
+
 $("#nav-bar").click(function() {
     window.open('assets/files/nav_bar.html', '_blank');
 });
