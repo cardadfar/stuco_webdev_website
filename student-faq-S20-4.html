@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAQ | 98-177: Building Personal Websites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../index-style.css">
+    <link rel="stylesheet" type="text/css" href="faq-style.css">
+    <link rel="icon" href="../assets/icons/code.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <p class='main-title-alone'> 98-177: Student-Taught Course | Building Personal Websites </p>
+
+        <div class='close-all'> Close All </div>
+
+        <div class='qa'>
+        	<p class="question">How do you debug when the code is not working?</p>
+        	<p class="answer">When you load your file locally in your browser, you can right click on the page and select 'Inspect Elements' to get a console detailing any failed outputs that occurred (these consoles differ between browsers, but can be used in similar ways). You can also parse the html/css that the browser is trying to render to check if you website actually updated or if it's using a cached-version. We will talk more about these concepts in <a href='https://cardadfar.github.io/stuco_webdev_website/assets/lectures/BPW_Lecture_05.pdf'>Lecture 5</a>.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Would be nice if you could gave us some reference to intro level html/css materials for us to look at after class :D</p>
+            <p class="answer">Codeacamdey and W3Schools has some great resources! If you ever feel like you need to catch up on html/css, feel free to email me and we can meet to go over some of the introductory content again.</a>.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">What does React do?</p>
+            <p class="answer">React is an easy way of building a user interface with minimal code. It abstracts away all the css when building common attributes like nav-bars and multi-tab panels. React is scalable and is used by many companies, but to understand React, you first have to understand css.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">What are some cool websites you've found?</p>
+            <p class="answer">As mentioned in a previous post, <a href="http://hizalcelik.com">my good friend Hizal</a> has an awesome resume website. <a href='http://victorjd.com'>My brother</a> also has a nice website that I take inspiration from (I also helped him design the icons).</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Is there good/bad style? I feel like I just hardcoded a bunch of numbers so that it looked good on my screen but if it was smaller or something I don't think the website would look good.</p>
+            <p class="answer">If you start doubting whether something is a good practice, chances are it isn't. Hardcoding is bad when you load your page on different screen sizes. My recommendation is to try to use percentages more than pixels. This way, when the screen shrinks, the content shrinks with it. We will be talking about optimizing for different screen sizes such as mobile and tablet in a later lecture.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">My gif file on my website shows up only "sometimes"... I wonder why.</p>
+            <p class="answer">If the gif is expensive to load, then that could be why (although I can't imagine an expensive gif unless it's an entire video in a gif). The server tries to load the gif asynchronously, which may be why you'll see the website finish loading before the gif loads.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">No question just fun fact: i spent 30 minutes fixing my broken image which is broken because i added quotes around the address and i just failed to notice it :0</p>
+            <p class="answer">:0</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Still a little bit confused with the class inheritance and the ">".</p>
+            <p class="answer">Think of the > as a conditional. For example, if I have the class .cmu then every html element with that class will get the stylings associated with .cmu. Yet if I have .colleges > .cmu, then only html elements with BOTH the class name "cmu" that also have a direct parent with the class name "colleges" will get the stylings associated with it. We can have all elements wiith class "cmu" inheret their stylings from a general set of stylings, but elements specifically with the parent class "colleges" could get unique or additional stylings. This becomes very useful when you want a large group of elements to get one type of stylings, but then a subset of them should get additional styling.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">I don't really have a question but it might just be because I don't know what I don't know.</p>
+            <p class="answer">Oof, philosophy.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">What are some motivations for learning css/html if there are lots of templates on line for building all kinds of websites ^_^?</p>
+            <p class="answer">Most of these templates are very limited in what you can do, and as a result offer ways for you to write your own custom html/css for greater mobility. How are you gonna customize your site without knowing html/css? Learn the language before you learn the packages/tools. :)</p>
+        </div>
+        
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='../assets/icons/w3.png'>
+            <div class='footer-text' id='w3-footer'>W3Schools</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
