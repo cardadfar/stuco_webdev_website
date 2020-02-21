@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAQ | 98-177: Building Personal Websites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../index-style.css">
+    <link rel="stylesheet" type="text/css" href="faq-style.css">
+    <link rel="icon" href="../assets/icons/code.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <p class='main-title-alone'> 98-177: Student-Taught Course | Building Personal Websites </p>
+
+        <div class='close-all'> Close All </div>
+
+        <div class='qa'>
+        	<p class="question">How's your week?</p>
+        	<p class="answer">Thanks for asking! Week's been pretty busy with projects and grading, but always love getting to teach students on Thursdays.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">I don't know how to upload my website...</p>
+            <p class="answer">cd into the website directory, then call 'git add', 'git commit -m 'commit-message'', 'git push'. The first lecture contains the same instructions.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">How to pass an interview?</p>
+            <p class="answer">You don't actually learn much from passing an interview as much as you do from failing. Last semester I applied to one of my dream jobs and completely failed the first technical interview (I never knew how computationally expensive square roots were on the CPU/GPU). I miraculously made it to the final round of interviews (a talk with the lead manager), but ended up getting rejected because of my first technical interview performance. 24 hours after being rejected I got a call from another team saying that they want to interview me, and a week later I got the offer. Failing that first interview really helped my performance on the second, so think of failing as a learning experience for future interviews.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">I don't really know how to get it to scroll down to whatever part of the navbar I click on (my website is just you keep scrolling down).</p>
+            <p class="answer">We will cover jQuery scrolling in a future lecture (you can have it configured where if you click on an ID, it triggers a jQuery function that scrolls down to the exact pixel location of a certain div). The alternative is to assign a href equal to a certain ID (href=#cool-div). Doing so will snap to the location of the div with the ID of #cool-div, which won't animate.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">What is the point of "local host"? Where does the number ":8000" come from?</p>
+            <p class="answer">Local host comes from the idea that you need to upload some files to a server before you request them (you can't request a file that's local to your desktop). When we talk about search bars, you'll see how useful local host gets in being able to run your search bar locally. The number 8000 comes from the available port 8000. <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">This Wikipedia page</a> lists all the port numbers and their uses. Basically we're trying to use a free port when sending over data.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Do you have any ideas for cool nav bars that are just not at the top and sort of normal?</p>
+            <p class="answer">I would look into the hamburger side menu bar. It's a dynamic setup where when you click on it, a dropdown appears with all your content. You could also just fix the content to the side, and have a button trigger an animation where a side nav bar scrolls in.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">How do you create muscles in css?</p>
+            <p class="answer">I'm still trying to figure out how to create muscles in real life! :(</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">What's a cool fact about websites?</p>
+            <p class="answer">Not a website fact specifically, but the <a href="https://www.wiliam.com.au/wiliam-blog/13-interesting-website-facts-you-probably-didnt-know">best time to send emails</a> is 10am.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">You're so smart!</p>
+            <p class="answer">Thanks! I wouldn't consider myself smart, just hard working (I had no idea what a terminal was when coming in as a freshman).</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">How to make the text in bold or italic?</p>
+            <p class="answer">Bold is font-weight property, italic is a font-style property.</p>
+        </div>
+
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='../assets/icons/w3.png'>
+            <div class='footer-text' id='w3-footer'>W3Schools</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
