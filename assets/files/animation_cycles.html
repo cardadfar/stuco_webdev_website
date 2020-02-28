@@ -70,10 +70,11 @@
         
         $("#linear").hover( function() {
 
-            console.log("got here:");
-            $("#linear").animate({opacity: 0.25}, 500);
             $("#linear").animate({'margin-left': '1000px'}, 500);
 
+        }, function() {
+
+            $("#linear").animate({'margin-left': '0px'}, 500);
         });
 
     </script>

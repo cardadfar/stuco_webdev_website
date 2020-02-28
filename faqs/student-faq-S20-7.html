@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAQ | 98-177: Building Personal Websites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../index-style.css">
+    <link rel="stylesheet" type="text/css" href="faq-style.css">
+    <link rel="icon" href="../assets/icons/code.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <p class='main-title-alone'> 98-177: Student-Taught Course | Building Personal Websites </p>
+
+        <div class='close-all'> Close All </div>
+
+        <div class='qa'>
+        	<p class="question">How can you align a piece of text to the bottom part of a div?</p>
+        	<p class="answer"> <a href="https://stackoverflow.com/questions/585945/how-to-align-content-of-a-div-to-the-bottom"> This StackOverflow post</a> provides a great response. You can set a min-height parent div, and the text inside the div you can set to absolute with a bottom of 0px. This will make it so that the space between the text and the bottom of the div is 0 so that it's bottom allisgned.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Could you upload more specific details about mid semester submission expectations?</p>
+            <p class="answer">All you need is to have your most up-to-date website pushed to your repository and have your progress log updated for every week you made edits. I'm not looking for specific implementations, but just that you spent 30-ish minutes each week on your website. The mid-semester submission is just a means for me to give you feedback, not to give you a grade (everyone passes).</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Any tips for how to make my website less boring? </p>
+            <p class="answer">Show your friends! Critiques are the best way to learn from the work you make and to make the work you make even better! I'll be offering my critiques mid-semester, but also reach out to your friends. Everyone is able to give feedback for a website since we use them all the time!</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Where can I find good website design?</p>
+            <p class="answer">A simple Google search can get you thousands of amazing designs for inspiration. It just matters what type of site you are trying to design.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">I had a question when I was coding my website earlier this week but then i forgot it :(</p>
+            <p class="answer">It's okay I once forgot my father's birthday :(</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">When there are multiple key frames, does the percentage in the format mean the percentage of the entire duration?</p>
+            <p class="answer">The percentage means where along the time graph the keyframe takes place. All keyframes operate on the range [0%,100%], so the percentage is a temporal value telling you at what time you'll reach the specified value. As an example, if you have a 5s animation cycle with one keyframe at 40%, then at 5*0.4 = 2s, the keyframe's value will be set.</p>
+        </div>
+
+        <div class='qa'>
+            <p class="question">Why do we need to know the animation stuff or how can we incorporate those into our website?</p>
+            <p class="answer">These look like two different questions. In response to the first, animation is the backbone of dynamic websites. Motion and interactivity can be used to tell clients where to click or scroll, and can be used to guide them through otherwise hard-to-traverse static sites. In response to the second, when you use an event selector such as :hover or :active in css, you can add a transition property that tells the compiler to transition between values rather than stepping between them. Other techniques involve defining keyframes or (as we will learn) assigning interpolations using jQuery.</p>
+        </div>
+
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='../assets/icons/w3.png'>
+            <div class='footer-text' id='w3-footer'>W3Schools</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
