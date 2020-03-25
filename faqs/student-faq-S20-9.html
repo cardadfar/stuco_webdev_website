@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAQ | 98-177: Building Personal Websites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../index-style.css">
+    <link rel="stylesheet" type="text/css" href="faq-style.css">
+    <link rel="icon" href="../assets/icons/code.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <p class='main-title-alone'> 98-177: Student-Taught Course | Building Personal Websites </p>
+
+        <div class='close-all'> Close All </div>
+
+        <div class='qa'>
+        	<p class="question">UHHHHH how do you manage time:((((?</p>
+        	<p class="answer">I've heard you can try dressing up when you go to school to encourage yourself to do more work. You can also find an isolated place in your house to always work. That way you could still keep your spatially-defined relaxation spaces separate from your work zones. After a few weeks you'll have gotten used to the transition, so hang in there!</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">How do you make a new page for your website and link it (like in the nav bar) without linking to an html file?</p>
+        	<p class="answer">I'm not sure why you're against doing this. The only drawback I can see is having the unwanted .html string in your url, but <a href="https://teamtreehouse.com/community/removing-html-from-url">a simple Google search</a> could get you what you're looking for.</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">What are good sites to reference for beginners?</p>
+        	<p class="answer">Copying from another post, but Codeacamdey and W3Schools has some great resources! If you ever feel like you need to catch up on html/css, feel free to email me and we can meet to go over some of the introductory content again.</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">Do you enjoy remote CMU so far?</p>
+        	<p class="answer">From a work standpoint, I've been much more productive in my home (weird, right?), although I still miss a lot of the amazing people at CMU, as well as my amazing students.</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">What is AJAX?</p>
+        	<p class="answer">AJAX allows you to make asynchronous (non-waiting) client-server requests for data. Think of it using it when you need to receive a file from a server, so you go request the file, do some other work while waiting, and when the file arrives, go and do something with that file (known as a callback function). AJAX is tricky to write so we usually do the equivalent calls in JQuery in much fewer lines of code.</p>
+        </div>
+        
+        <div class='qa'>
+        	<p class="question">What can the queued operations in JQuery be used for other than animation?</p>
+        	<p class="answer">Queuing isn't an operation in JQuery, but rather it is how JQuery handles multiple animation calls.</p>
+        </div>
+
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='../assets/icons/w3.png'>
+            <div class='footer-text' id='w3-footer'>W3Schools</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
