@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAQ | 98-177: Building Personal Websites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../index-style.css">
+    <link rel="stylesheet" type="text/css" href="faq-style.css">
+    <link rel="icon" href="../assets/icons/code.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../loading.js"></script>
+</head>
+<body>
+    <div class='loading-screen loading-screen-on'>
+        <p class='loading-screen-text'> loading... </p>
+        <div class='grey-screen'></div>
+    </div>
+    <div class='nav-bar'>
+        <div class='tab' id='overview' style='margin-top: 10px;'>Overview</div>
+        <div class='tab' id='calendar'>Calendar</div>
+        <div class='tab' id='assignments'>Assignments</div>
+        <div class='tab' id='files'>Files</div>
+        <div class='tab' id='software' id='overview'>Software</div>
+        <div class='tab' id='resources'>Resources</div>
+        <div class='tab' id='faq'>FAQ</div>
+        <div class='tab' id='memes'>¯\_(ツ)_/¯</div>
+    </div>
+    <div class='main'>
+        <p class='main-title-alone'> 98-177: Student-Taught Course | Building Personal Websites </p>
+
+        <div class='close-all'> Close All </div>
+
+        <div class='qa'>
+        	<p class="question">What is WebAssembly and what is it used for?</p>
+        	<p class="answer">Taken from <a href=https://webassembly.org>here</a>, WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications. This means it's easy to do lower-level debugging and get a lot of performance gain. This is good if you've already written an app in C/C++ that you want to deploy online.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">Where can I find HTML templates? Some friend of mine says that those are good for beginners?</p>
+        	<p class="answer">W3 offers <a href=https://www.w3schools.com/w3css/w3css_templates.asp>a lot</a> of great templates you can try out in-browser before porting over to your site. You can even take snippets from different templates.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">I'm using vs code and I have no idea where my console.log is printing to. Help?</p>
+        	<p class="answer">You can view any console-logged output in the browser by right clicking on your website page in-browser and selecting the 'inspect' or 'inspect elements' option. A pannel should appear on the bottom/side, and one tab should be labeled 'console' where you can view any printed output.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">I think I have fallen behind in terms of not updating my website weekly. I was wondering if there was a way to check my attendance? In addition, is the policy more relaxed now due to the situation?</p>
+        	<p class="answer">I understand now is a stressful time for everyone, so I will allow you to continue the course at your own pace. A week before the end of class I will remind everyone that the following (last) week I'll be checking polls, progress logs, and websites. If you find yourself needing additiona assitance or have any concerns, please reach out to me, and we can work something out. The purpose of the course remains the same: to learn (and make) a website you're happy with, and I still plan to get you all there.</p>
+        </div>
+
+        <div class='qa'>
+        	<p class="question">Fun thing to do during quarantine?</p>
+        	<p class="answer">Take this time to learn something you've always wanted to! (or just go plan animal crossing like half the internet)</p>
+        </div>
+
+    </div>
+
+    <div class='footer'>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/github.png'>
+            <div class='footer-text' id='github-footer'>GitHub</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img footer-img-big' src='../assets/icons/w3.png'>
+            <div class='footer-text' id='w3-footer'>W3Schools</div>
+        </div>
+
+        <div class='footer-comp'>
+            <img class='footer-img' src='../assets/icons/paper.png'>
+            <div class='footer-text' id='syllabus-footer'>Syllabus</div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="interactions.js"></script>
+
+</body>
+</html>
