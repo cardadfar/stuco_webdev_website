@@ -97,7 +97,7 @@ $("#memes").click(function() {
 /*-------------------FOOTER--------------------*/
 
 $("#github-footer").click(function() {
-    window.open('https://github.com/cardadfar/stuco-webdev-website', '_blank');
+    window.open('https://github.com/cardadfar/stuco_webdev_website', '_blank');
 });
 
 $("#w3-footer").click(function() {
