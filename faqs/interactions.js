@@ -132,7 +132,7 @@ $("#git-pages").click(function() {
 
 
 $("#google-drive").click(function() {
-    window.open('https://drive.google.com/drive/u/0/folders/19wlI8wrg7_oTDQFS1lzB-TgNwajjP4Y8h', '_blank');
+    window.open('https://drive.google.com/drive/u/0/folders/19wlI8wrg7_oTDQFS1lzB-TgNwajjP4Y8', '_blank');
 });
 
 
