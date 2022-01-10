@@ -117,7 +117,7 @@ $("#syllabus").click(function() {
 /*-------------------ASSIGNMENTS------------------*/
 
 $("#google-drive").click(function() {
-    window.open('https://drive.google.com/drive/u/0/folders/19wlI8wrg7_oTDQFS1lzB-TgNwajjP4Y8', '_blank');
+    window.open('https://drive.google.com/drive/u/0/folders/1jlnOCxSC4fE5F7BGbkQEcf6t6ixBDdXz', '_blank');
 });
 
 
@@ -131,16 +131,11 @@ $("#git-pages").click(function() {
 });
 
 
-$("#google-drive").click(function() {
-    window.open('https://drive.google.com/drive/u/0/folders/19wlI8wrg7_oTDQFS1lzB-TgNwajjP4Y8', '_blank');
-});
-
-
 /*-------------------POLLS------------------*/
 
 
 $(".poll-01").click(function() {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLScj2gT2rg6K8rzFF8cp23WHAFEC_ZJXJ6cZRS576x6iuFK0Yg/viewform?usp=sf_link', '_blank');
+    window.open('https://forms.gle/NNSgJ8oji9RoaRLm8', '_blank');
 });
 
 $(".poll-02").click(function() {
